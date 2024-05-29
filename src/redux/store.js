@@ -1,7 +1,7 @@
 import { applyMiddleware, legacy_createStore } from "redux";
 import rootReducer from "./rootReducer";
 import logger from "redux-logger";
-
+import { persistStore } from "redux-persist";
 const middleware = [];
 
 // eslint-disable-next-line no-undef
@@ -14,4 +14,4 @@ export const store = legacy_createStore(
   applyMiddleware(...middleware)
 );
 
-export default store;
+export const persistor = persistStore(store);
