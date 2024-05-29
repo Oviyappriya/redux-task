@@ -1,8 +1,15 @@
-# React + Vite
+This task is about:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+--->Needs to Increase or Decrease the per unit Quantity that should automatically updates the total Quantity and Amount.
 
-Currently, two official plugins are available:
+--->Code Must Use Only React Redux Toolkit  to perform all necessary functions
+In this task,I had done
+  If we click up arrow, the product will increase.
+  If we click down arrow, the product will decrease and the total amount also change according to the quantity.
+  If we click CLEAR button all the product will clear.
+  If we click GET ITEM button all the product will display.
+  According to the quantity change cart also change.
+  
+  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  
