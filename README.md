@@ -9,7 +9,6 @@ In this task,I had done
   If we click CLEAR button all the product will clear.
   If we click GET ITEM button all the product will display.
   According to the quantity change cart also change.
-  
-  
-
-  
+ ---------------------------------------------------
+  Netify:   https://redux-task-fsd56we-t.netlify.app/
+ ----------------------------------------------------- 
