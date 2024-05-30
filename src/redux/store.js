@@ -4,6 +4,7 @@ import logger from "redux-logger";
 import { persistStore } from "redux-persist";
 const middleware = [];
 
+
 // eslint-disable-next-line no-undef
 if (process.env.NODE_ENV === "development") {
   middleware.push(logger);
